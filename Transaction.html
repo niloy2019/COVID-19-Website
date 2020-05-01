@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<meta name ="viewport" content="width=device-width,initial-scale=1">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Transaction</title>
+    <link rel="stylesheet" href="tran.css">
+</head>
+<body style="background-image: url(covid.jpg);background-size: cover;height: 700px;">
+    
+ <!-------------------------------------------------------------------for Header--------------------------------------------------------------->
+    
+    <div>
+        <div class="main">
+
+                <div class="logo">
+                    <a href="Transaction.html"><img src="logo.jpg" alt=""></a>
+                </div>
+
+            
+                <ul class='button'>
+                    <li  class="active"><a href="Transaction.html" class="anchor">Home</a></li>
+                    <li  class="active"><a href="aboutUs.html" class="anchor">About COVID-19</a></li>
+                    <li  class="active"><a href="index.html" class="anchor">Log Out</a></li>
+                </ul>
+        </div>
+   </div>
+
+
+
+
+<!--------------------------       FOR VALIDATING USER BEFORE GOING TO DO TRANSACTION     -------------------------------------------->
+     <div class="pin" id="pin" style="">
+         <h2 style="text-align: center; color: brown;">Book an Appoinement</h2><br>
+    <form>
+        <table> 
+         <tr >
+             <td  style="padding: 20px;"> 
+                <span id="pm">Having any Syntom like this? : </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             </td>
+             <td>
+                <select name="select" required id="option" class="select" >
+                    <option value="" >Choose an Option</option>
+                    <option value="1">Fever</option>   
+                    <option value="2">Breathlessness</option>  
+                    <option value="3">Cold</option>
+                    <option value="4">Cough</option>
+                </select> 
+           </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label style="padding: 20px;">Age : </label>
+            </td>
+            <td>
+                <input type="number" required class="select" style="cursor: auto;">
+            </td>
+        </tr>
+
+        <tr>
+           <td  style="padding: 20px;">
+                 <label>Location : </label>
+           </td>
+           <td>
+                <select name="select" required id="option" class="select" >
+                    <option value="" >Enter Your Area</option>
+                    <option value="1">North</option>   
+                    <option value="2">East</option>  
+                    <option value="3">South</option>
+                    <option value="4">West</option>
+                </select> 
+          </td>
+       </tr>
+
+       <tr>
+        <td  style="padding: 20px;">
+              <label>Enter Pincode : </label>
+        </td>
+        <td>
+             <select name="select" required id="c" class="select" >
+                 <option value="" >Choose One</option>
+                 <option value="1">560021</option>
+                 <option value="2">560022</option>
+                 <option value="3">560023</option>
+                 <option value="4">560024</option>
+                 <option value="5">560025</option>
+                 <option value="6">560026</option>
+                 <option value="7">560027</option>
+                 <option value="8">560028</option>
+                 <option value="9">560029</option>
+                 <option value="10">560030</option>
+                 <option value="11">560031</option>
+                 <option value="12">560032</option>
+                 <option value="13">560033</option>
+                 <option value="14">560034</option>
+                 <option value="15">560035</option>
+                 <option value="16">560036</option>
+                 <option value="17">560037</option>
+                 <option value="18">560038</option>
+                 <option value="19">560039</option>  
+                 <option value="20">560040</option>
+                 <option value="21">560041</option>
+                 <option value="22">560042</option>
+                 <option value="23">560043</option>
+                 <option value="24">560044</option>
+                 <option value="25">560045</option>
+                 <option value="26">560046</option>
+                 <option value="27">560047</option>
+                 <option value="28">560048</option>
+                 <option value="29">560049</option>
+                 <option value="30">560050</option>
+                 <option value="31">560051</option>
+                 <option value="32">560052</option>
+                 <option value="33">560053</option>
+                 <option value="34">560054</option>
+                 <option value="35">560055</option>
+                 <option value="36">560056</option>
+                 <option value="37">560057</option>
+                 <option value="38">560058</option>
+                 <option value="39">560059</option>
+                 <option value="40">560060</option>  
+             </select> 
+       </td>
+    </tr>
+
+    <tr>
+        <td  style="padding: 20px;">
+              <label>Describe Your Issue in Detail : </label>
+        </td>
+        <td>
+            <textarea name="comment[body]" required rows="1" cols="50" wrap="physical" id="comment_text_area" style="height: 100px;width: 400px;border: 1px solid aqua;"></textarea>
+       </td>
+    </tr>
+
+
+    </table>
+        <!-- <p style="text-align: center;"><input type="submit" value="SUBMIT" class="pinbutton" style="cursor: pointer;" onclick="return pinNumber()"></p> -->
+        <button  type="button" id="x"  style="height:50px;width: 200px;cursor: pointer;font-size: 18px;background-color: green;color: white;border: 0px;float: right;margin-top: 20px;">Book Appoinement</button>
+    </form>     
+
+</div>
+
+<div id="amb1" style="display: none;background-color: white;height: 240px;width: 1200px; margin: 200px 0px 0px 50px;font-size: 30px;padding: 20px;">
+    <p style="font-family: Arial, Helvetica, sans-serif;"> You are assigned  to <b style="font-family: Arial;"> Batman Hospital </b>for screening of COVID-19 .</p> <br>
+    <p style="font-family: Arial, Helvetica, sans-serif;"> An Ambulance(AMB1) from <b style="font-family: Arial;">Batman Hospital</b>  will reach your place within 1 hour and will take you to the Hospital. </p>
+    <br>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Thank You for visiting our Website .Hope You will get well soon . </p>
+    <a href="" style="text-decoration: none;font-family: Arial;font-size: 18px;">To know More About COID-19 click this link</a>
+</div>
+<div id="amb2" style="display: none;background-color: white;height: 240px;width: 1200px; margin: 200px 0px 0px 50px;font-size: 30px;padding: 20px;">
+    <p style="font-family: Arial, Helvetica, sans-serif;"> You are assigned  to <b style="font-family: Arial;"> Batman Hospital </b>for screening of COVID-19 .</p> <br>
+    <p style="font-family: Arial, Helvetica, sans-serif;"> An Ambulance(AMB2) from <b style="font-family: Arial;">Batman Hospital</b>  will reach your place within 1 hour and will take you to the Hospital. </p>
+    <br>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Thank You for visiting our Website .Hope You will get well soon . </p>
+    <a href="" style="text-decoration: none;font-family: Arial;font-size: 18px;">To know More About COID-19 click this link</a>
+</div>
+
+
+<div id="amr1" style="display: none;background-color: white;height: 240px;width: 1200px; margin: 200px 0px 0px 50px;font-size: 30px;padding: 20px;">
+    <p style="font-family: Arial, Helvetica, sans-serif;"> You are assigned  to <b style="font-family: Arial;"> Robin Hospital </b>for screening of COVID-19 .</p> <br>
+    <p style="font-family: Arial, Helvetica, sans-serif;"> An Ambulance(AMR1) from <b style="font-family: Arial;">Robin Hospital</b>  will reach your place within 1 hour and will take you to the Hospital. </p>
+    <br>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Thank You for visiting our Website .Hope You will get well soon . </p>
+    <a href="" style="text-decoration: none;font-family: Arial;font-size: 18px;">To know More About COID-19 click this link</a>
+</div>
+
+
+<div id="amc1" style="display: none;background-color: white;height: 240px;width: 1200px; margin: 200px 0px 0px 50px;font-size: 30px;padding: 20px;">
+    <p style="font-family: Arial, Helvetica, sans-serif;"> You are assigned  to <b style="font-family: Arial;"> Catwoman Hospital </b>for screening of COVID-19 .</p> <br>
+    <p style="font-family: Arial, Helvetica, sans-serif;"> An Ambulance(AMC1) from <b style="font-family: Arial;">Catwoman Hospital</b>  will reach your place within 1 hour and will take you to the Hospital. </p>
+    <br>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Thank You for visiting our Website .Hope You will get well soon . </p>
+    <a href="" style="text-decoration: none;font-family: Arial;font-size: 18px;">To know More About COID-19 click this link</a>
+</div>
+<div id="amc2" style="display: none;background-color: white;height: 240px;width: 1200px; margin: 200px 0px 0px 50px;font-size: 30px;padding: 20px;">
+    <p style="font-family: Arial, Helvetica, sans-serif;"> You are assigned  to <b style="font-family: Arial;"> Catwoman Hospital </b>for screening of COVID-19 .</p> <br>
+    <p style="font-family: Arial, Helvetica, sans-serif;"> An Ambulance(AMC2) from <b style="font-family: Arial;">Catwoman Hospital</b>  will reach your place within 1 hour and will take you to the Hospital. </p>
+    <br>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Thank You for visiting our Website .Hope You will get well soon . </p>
+    <a href="" style="text-decoration: none;font-family: Arial;font-size: 18px;">To know More About COID-19 click this link</a>
+</div>
+
+
+<div id="ams1" style="display: none;background-color: white;height: 240px;width: 1200px; margin: 200px 0px 0px 50px;font-size: 30px;padding: 20px;">
+    <p style="font-family: Arial, Helvetica, sans-serif;"> You are assigned  to <b style="font-family: Arial;"> Superman Hospital </b>for screening of COVID-19 .</p> <br>
+    <p style="font-family: Arial, Helvetica, sans-serif;"> An Ambulance(AMS1) from <b style="font-family: Arial;">Superman Hospital</b>  will reach your place within 1 hour and will take you to the Hospital. </p>
+    <br>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Thank You for visiting our Website .Hope You will get well soon . </p>
+    <a href="" style="text-decoration: none;font-family: Arial;font-size: 18px;">To know More About COID-19 click this link</a>
+</div>
+<div id="ams2" style="display: none;background-color: white;height: 240px;width: 1200px; margin: 200px 0px 0px 50px;font-size: 30px;padding: 20px;">
+    <p style="font-family: Arial, Helvetica, sans-serif;"> You are assigned  to <b style="font-family: Arial;"> Superman Hospital </b>for screening of COVID-19 .</p> <br>
+    <p style="font-family: Arial, Helvetica, sans-serif;"> An Ambulance(AMS2) from <b style="font-family: Arial;">Superman Hospital</b>  will reach your place within 1 hour and will take you to the Hospital. </p>
+    <br>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Thank You for visiting our Website .Hope You will get well soon . </p>
+    <a href="" style="text-decoration: none;font-family: Arial;font-size: 18px;">To know More About COID-19 click this link</a>
+</div>
+
+
+ <!--------------------------------------------------------------- for footer------------------------------------------------------------->
+
+ <div class="footer" style="margin-top: 800px;font-size: 20px;">
+    <table border="0" width="100%" bgcolor= #172337>
+        <tr>
+           
+            <td width="13.75%"><ul><li class="footerHead"><font color="grey">Patient Care</font></li></ul></td>
+            <td width="13.75%"><ul><li class="footerHead"><font color="grey">Centres of Excellence</font></li></ul></td>
+            <td width="13.75%"><ul><li class="footerHead"><font color="grey">Key Medicals Procedures</font></li></ul></td>
+            <td width="13.75%"><ul><li class="footerHead"><font color="grey">Corporate</font></li></ul></td>
+            <td width="22.5% "><ul><li class="footerHead"><font color="grey">Contact Us:</font></li></ul></td>
+            <td width="22.5% "><ul><li class="footerHead"><font color="grey">Location : </font></li></ul></td>
+        </tr>
+
+      
+
+        <tr>
+            <td width="13.75%">
+                <ul>
+                    <a href="" class="h"><li > Find a Doctor</li></a><br>
+                    <a href="" class="h"><li > Service Excellence</li></a><br>
+                    <a href="" class="h"><li > Patients Speak</li></a><br>
+                    <a href="" class="h"><li > Value Added Services</li></a><br>
+                    <a href="" class="h"><li > Pay Online</li></a><br>
+                </ul>
+            </td>
+ 
+             
+             <td width="13.75%">
+                
+                <ul>
+                     <a href="" class="h"><li >Orthopaedics</li></a><br>
+                     <a href="" class="h"><li >Nephrology & Urology</li></a><br>
+                     <a href="" class="h"><li >Cardiology</li></a><br>
+                     <a href="" class="h"><li >Gastroenterology</li></a><br>
+                     <a href="" class="h"><li >Neurology & Neurosurgery</li></a><br>
+                </ul>
+                 
+             </td>
+             
+             
+     
+             <td width="13.75%">
+                     <ul>
+                        <a href="" class="h"><li >Cancer Treatment - Proton Therapy</li></a><br>
+                        <a href="" class="h"><li >VF & Infertility Treatment</li></a><br>
+                        <a href="" class="h"><li >Cosmetic / Plastic Surgery</li></a><br>
+                        <a href="" class="h"><li >Oral & Maxillofacial Surgery</li></a><br>
+                        <a href="" class="h"><li >Hand MicroSurgery</li></a><br>
+                     </ul>    
+             </td>
+             
+             <td width="13.75%">
+                     <ul>
+                        <a href="" class="h"><li >Our Doctors Achieve</li></a><br>
+                        <a href="" class="h"><li >Proud Of You Doctort</li></a><br>
+                        <a href="" class="h"><li >Management</li></a><br>
+                        <a href="" class="h"><li >Investor Relations</li></a><br>
+                        <a href="" class="h"><li >Careers</li></a><br>
+                     </ul>
+             </td>
+             <hr>
+             
+              <td width="22.5%">
+                <ul>
+                    <li class="w">Covid19Hospital@gmail.com</li>
+                    <li class="w">BTM Lay Out,2nd Stage,</li>
+                    <li class="w">Central Silk Board,</li>
+                    <li class="w">Bengaluru, 560068,</li>
+                    <li class="w">Karnataka, India.</li>
+                </ul>
+             </td>
+             
+             <td width="22.5%">
+                   
+                        <ul>
+                            <li class="w">  Ahemdabad </li>
+                            <li class="w"> Bangalore</li>
+                            <li class="w"> Chennai,</li>
+                            <li class="w"> Delhi </li>
+                            <li class="w"> Kolkata    </li>
+                            <li class="w"> Hydrabad    </li>
+                            <li class="w"> Lucknow    </li>
+                            <li class="w"> Mumbai    </li>
+                            <li class="w"> Mysore    </li>
+                            <li class="w"> Pune    </li>
+                            <li class="w"> Indore    </li>
+                        </ul>
+                        
+                 
+             </td>
+         </tr>
+    </table>  
+ </div>
+
+</body>
+<script src="main.js"></script>
+</html>
