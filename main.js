@@ -9,56 +9,62 @@ var count=0
 
 
 
+if(document.getElementById('x')!=null){
 
-document.getElementById('x').addEventListener("click", function() {
-    
-    let n=(Number) (document.getElementById("c").value);
+    document.getElementById('x').addEventListener("click", function() {
+        
+        let n=(Number) (document.getElementById("c").value);
 
-    console.log(n)
-    console.log(typeof n)
-    if(n>=1 && n<=5){
-        document.getElementById("pin").style.display="none";
-        document.getElementById("amb1").style.display="block";
-    }else if(n>5 && n<=10){
-        document.getElementById("pin").style.display="none";
-        document.getElementById("amb2").style.display="block";
-    }else if(n>10 && n<=20){
-        document.getElementById("pin").style.display="none";
-        document.getElementById("amr1").style.display="block";
-    }else if(n>20 && n<=25){
-        document.getElementById("pin").style.display="none";
-        document.getElementById("amc1").style.display="block";
-    }else if(n>25 && n<=30){
-        document.getElementById("pin").style.display="none";
-        document.getElementById("amc2").style.display="block";
-    }else if(n>30 && n<=35){
-        document.getElementById("pin").style.display="none";
-        document.getElementById("ams1").style.display="block";
-    }else if(n>35 && n<=40){
-        document.getElementById("pin").style.display="none";
-        document.getElementById("ams2").style.display="block";
-    }
-});
+        console.log(n)
+        console.log(typeof n)
+        if(n>=1 && n<=5){
+            document.getElementById("pin").style.display="none";
+            document.getElementById("amb1").style.display="block";
+        }else if(n>5 && n<=10){
+            document.getElementById("pin").style.display="none";
+            document.getElementById("amb2").style.display="block";
+        }else if(n>10 && n<=20){
+            document.getElementById("pin").style.display="none";
+            document.getElementById("amr1").style.display="block";
+        }else if(n>20 && n<=25){
+            document.getElementById("pin").style.display="none";
+            document.getElementById("amc1").style.display="block";
+        }else if(n>25 && n<=30){
+            document.getElementById("pin").style.display="none";
+            document.getElementById("amc2").style.display="block";
+        }else if(n>30 && n<=35){
+            document.getElementById("pin").style.display="none";
+            document.getElementById("ams1").style.display="block";
+        }else if(n>35 && n<=40){
+            document.getElementById("pin").style.display="none";
+            document.getElementById("ams2").style.display="block";
+        }
+    });
 
-
+}
 
 //---------------------------------------------------------For Pop-Up Log in and Sign Up-------------------------------------------------------
 
 //----------------------------------------------for Log in---------------------------------------
 
-document.getElementById('login').addEventListener("click", function() {
-    document.querySelector('.popup').style.display = "flex";
+if(document.getElementById('login')!=null){
 
-});
+    document.getElementById('login').addEventListener("click", function() {
+        document.querySelector('.popup').style.display = "flex";
 
-document.querySelector('.close').addEventListener("click", function() {
-    document.querySelector('.popup').style.display = "none";
-    // document.querySelector('.successfull').style.display = "none";
-    document.getElementById("username").style.borderColor="grey"
-    document.getElementById("password").style.borderColor="grey"
-    document.getElementById("val").innerHTML=""
-    document.getElementById("loginform").reset()
-});
+    });
+
+}
+
+    document.querySelector('.close').addEventListener("click", function() {
+        document.querySelector('.popup').style.display = "none";
+        // document.querySelector('.successfull').style.display = "none";
+        document.getElementById("username").style.borderColor="grey"
+        document.getElementById("password").style.borderColor="grey"
+        document.getElementById("val").innerHTML=""
+        document.getElementById("loginform").reset()
+    });
+
 
 
 function validate(){
@@ -84,10 +90,14 @@ function validate(){
 }
 
 //------------------------------------------For Sign Up------------------------------------------------
+if(document.getElementById('signup')!=null){
 
-document.getElementById('signup').addEventListener("click", function() {
-	document.querySelector('.popup2').style.display = "flex";
-});
+    document.getElementById('signup').addEventListener("click", function() {
+        document.querySelector('.popup2').style.display = "flex";
+    });
+    
+}
+
 
 document.querySelector('.close2').addEventListener("click", function() {
 	document.querySelector('.popup2').style.display = "none";
