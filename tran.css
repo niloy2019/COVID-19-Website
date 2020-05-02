@@ -119,7 +119,7 @@ header{
 /* ---------for Pin Number------------*/
 .pin{
 
-    top :15%;
+    margin-top: 50px;
     left: 21%;   
     height: 500px;
 	width: 700px;
