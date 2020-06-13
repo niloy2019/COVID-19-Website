@@ -7,7 +7,7 @@
   COVID-19-Website
 
 ## Objective : 
-  To Make an website for COVID-19 Hospital admission 
+  To Make an website to Book an Test for COVID-19 and to book an Bed in Hospital.
 
 
 ## Technology Used :      
@@ -15,7 +15,8 @@
        
 ## Description :
 *  This Website helps a patient a book for COVID-19 Test and book an admission to the Hospital.
-   If a Patient is having Symptoms given in Website they can Book an Appointment.
+   If a Patient is having Symptoms given in Website they can Book an Appointment.Depending on 
+   location of the patients, they will be assigned their nearby COIVD-19 Hospitals.
 
 *  This is an plane HTML,CSS,JavaScript Application.This Application uses local storage for login
    validation. No Databse conneectivity is there.
@@ -28,10 +29,7 @@
    https://niloy2019.github.io/COVID-19-Website/   
  
 
-##  How It Works
-
-     This Project is created  for Gotham Municipal Corporation,where user can take an Appoinement 
-     and Depending on location of the patients, they have assigned the hospitals.
+##  How It Works:
 
      --> User first have to Register by Signing up button . 
 
