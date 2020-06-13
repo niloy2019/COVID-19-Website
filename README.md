@@ -18,7 +18,7 @@
    If a Patient is having Symptoms given in Website they can Book an Appointment.
 
 *  This is an plane HTML,CSS,JavaScript Application.This Application uses local storage for login
-   purpose.
+   validation. No Databse conneectivity is there.
    
 *  This Website is made based upon some given requirement.
   
@@ -30,9 +30,8 @@
 
 ##  How It Works
 
-     In this Project I have created an website for Gotham Municipal Corporation,where user can
-     take an Appoinement and Depending on location of the patients, they have assigned the   
-     hospitals.
+     This Project is created  for Gotham Municipal Corporation,where user can take an Appoinement 
+     and Depending on location of the patients, they have assigned the hospitals.
 
      --> User first have to Register by Signing up button . 
 
@@ -50,9 +49,7 @@
 
      --> Log out option is there to Log out.
 
-      I have used HTML,CSS and JavaScript to complete the Project , No backend and Database is included
-     in this Project . I have used Local Storage to store the username and password of the User and validate
-    them at the time of Logging in.
+ 
   
   
     
@@ -62,27 +59,27 @@
 
 ## Images of the Project:
 
-## Home page : 
+## 1.Home page : 
 ![](https://github.com/niloy2019/COVID-19-Website/blob/master/images/index.PNG)
 
-## Signup Page :
+## 2.Signup Page :
 ![](https://github.com/niloy2019/COVID-19-Website/blob/master/images/registration.PNG)
 
-## Login Page : 
+## 3.Login Page : 
 ![](https://github.com/niloy2019/COVID-19-Website/blob/master/images/login.PNG)
 
-## Appointment Page (Booking an Appointment) :
+## 4.Appointment Page (Booking an Appointment) :
 ![](https://github.com/niloy2019/COVID-19-Website/blob/master/images/appoinment1.PNG)
 ![](https://github.com/niloy2019/COVID-19-Website/blob/master/images/appointment2.PNG)
 
-## Appointment Page(Appointment Booked)
+## 5.Appointment Page(Appointment Booked)
 ![](https://github.com/niloy2019/COVID-19-Website/blob/master/images/appoinment3.PNG)
 
-## About Covid-19 Page : 
+## 6.About Covid-19 Page : 
 ![](https://github.com/niloy2019/COVID-19-Website/blob/master/images/aboutcovid1.PNG)
 ![](https://github.com/niloy2019/COVID-19-Website/blob/master/images/aboutcovid2.PNG)
 ![](https://github.com/niloy2019/COVID-19-Website/blob/master/images/aboutcovid3.PNG)
 ![](https://github.com/niloy2019/COVID-19-Website/blob/master/images/aboutcovid4.PNG)
 
-## Home Page(After Log Out)
+## 7.Home Page(After Log Out)
 ![](https://github.com/niloy2019/COVID-19-Website/blob/master/images/index.PNG)
