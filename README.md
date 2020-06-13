@@ -19,7 +19,7 @@
    location of the patients, they will be assigned their nearby COIVD-19 Hospitals.
 
 *  This is an plane HTML,CSS,JavaScript Application.This Application uses local storage for login
-   validation. No Databse conneectivity is there.
+   validation. No Databse connectivity is there.
    
 *  This Website is made based upon some given requirement.
   
